@@ -1,0 +1,119 @@
+{
+  "startScene": "mirashuette1",
+  "scenes": {
+    "aufdemberg": {
+      "id": "aufdemberg",
+      "image": "winterwonderland.jpg",
+      "hotspots": [
+        { "id": "hp-jh4p39", "label": "To the village", "x": 0.7734, "y": 0.1373, "r": 0.04, "target": "dasdorf" }
+      ]
+    },
+    "dasdorf": {
+      "id": "dasdorf",
+      "image": "dorf.jpg",
+      "hotspots": [
+        { "id": "hp-sckjmz", "label": "Into the Mountains", "x": 0.5112, "y": 0.8289, "r": 0.04, "target": "hochgebirge1" },
+        { "id": "hp-9a5vph", "label": "Mira's Holiday Cabin", "x": 0.5335, "y": 0.7258, "r": 0.04, "target": "mirashuette1" }
+      ]
+    },
+    "mirashuette1": {
+      "id": "mirashuette1",
+      "image": "Dorf02-hi.jpg",
+      "hotspots": [
+        { "id": "hp-3ebca3", "label": "Back to the village", "x": 0.8531, "y": 0.0775, "r": 0.04, "target": "dasdorf" },
+        { "id": "hp-9o6ezu", "label": "Mira's holiday cabin", "x": 0.7398, "y": 0.4947, "r": 0.04, "target": "mirashuette2" },
+        { "id": "hp-41zk8k", "label": "To the neighbors", "x": 0.2789, "y": 0.6178, "r": 0.04, "target": "nachbarn" },
+        { "id": "hp-jef1xd", "label": "Follow the path", "x": 0.5664, "y": 0.5510, "r": 0.04, "target": "richtunghochgebirge1" }
+      ]
+    },
+    "mirashuette2": {
+      "id": "mirashuette2",
+      "image": "mirashuette.jpg",
+      "hotspots": [
+        { "id": "hp-7t0pow", "label": "Back to the path", "x": 0.5172, "y": 0.0447, "r": 0.04, "target": "mirashuette1" },
+        { "id": "hp-6yd437", "label": "Open the door", "x": 0.4930, "y": 0.4268, "r": 0.04, "target": "mirashuette_flur" }
+      ]
+    },
+    "mirashuette_flur": {
+      "id": "mirashuette_flur",
+      "image": "mirashuette_flur.jpg",
+      "hotspots": [
+        { "id": "hp-pw3czq", "label": "❌ To the living room", "x": 0.5125, "y": 0.5146, "r": 0.04, "target": null },
+        { "id": "hp-bqol73", "label": "❌ To the kitchen", "x": 0.2687, "y": 0.5580, "r": 0.04, "target": null },
+        { "id": "hp-31ar9i", "label": "Back outside", "x": 0.5219, "y": 0.0236, "r": 0.04, "target": "mirashuette2" },
+        { "id": "hp-8b7zib", "label": "Turn right", "x": 0.9492, "y": 0.2721, "r": 0.04, "target": "mirashuette_flur_rechts" }
+      ]
+    },
+    "mirashuette_flur_rechts": {
+      "id": "mirashuette_flur_rechts",
+      "image": "mira_flur2.jpg",
+      "hotspots": [
+        { "id": "hp-wayvfv", "label": "Back to the entrance area", "x": 0.4836, "y": 0.0400, "r": 0.04, "target": "mirashuette_flur" },
+        { "id": "hp-0ih4yx", "label": "To the basement", "x": 0.4633, "y": 0.5697, "r": 0.04, "target": "mira_huette_flur_keller" },
+        { "id": "hp-tai08f", "label": "❌ Storage room", "x": 0.2742, "y": 0.5920, "r": 0.04, "target": null }
+      ]
+    },
+    "mira_huette_flur_keller": {
+      "id": "mira_huette_flur_keller",
+      "image": "mira_huette_trepperunter.jpg",
+      "hotspots": [
+        { "id": "hp-sdkyk3", "label": "Back", "x": 0.0477, "y": 0.2838, "r": 0.04, "target": "mirashuette_flur_rechts" },
+        { "id": "hp-ydu9ld", "label": "❌ To the bedroom", "x": 0.4891, "y": 0.5205, "r": 0.04, "target": null }
+      ]
+    },
+    "nachbarn": {
+      "id": "nachbarn",
+      "image": "nachbarn.jpg",
+      "hotspots": [
+        { "id": "hp-1t2tqy", "label": "Back to the path", "x": 0.5109, "y": 0.0752, "r": 0.04, "target": "mirashuette1" }
+      ]
+    },
+    "richtunghochgebirge1": {
+      "id": "richtunghochgebirge1",
+      "image": "Dorf03.jpg",
+      "hotspots": [
+        { "id": "hp-364wdf", "label": "Back to Mira's holiday cabin", "x": 0.7992, "y": 0.1057, "r": 0.04, "target": "mirashuette1" },
+        { "id": "hp-a828r7", "label": "Into the mountains", "x": 0.5445, "y": 0.5299, "r": 0.04, "target": "hochgebirge1" }
+      ]
+    },
+    "hochgebirge1": {
+      "id": "hochgebirge1",
+      "image": "hochgebirge1.jpg",
+      "hotspots": [
+        { "id": "hp-rdneyt", "label": "Back toward the village", "x": 0.8273, "y": 0.0939, "r": 0.04, "target": "richtunghochgebirge1" },
+        { "id": "hp-7eg3u3", "label": "Continue along the path", "x": 0.6609, "y": 0.5686, "r": 0.04, "target": "hochgebirge2" }
+      ]
+    },
+    "hochgebirge2": {
+      "id": "hochgebirge2",
+      "image": "hochgebirge2.jpg",
+      "hotspots": [
+        { "id": "hp-h5dqig", "label": "Back", "x": 0.7969, "y": 0.1010, "r": 0.04, "target": "hochgebirge1" },
+        { "id": "hp-pkf5jn", "label": "Further into the mountains", "x": 0.6625, "y": 0.5041, "r": 0.04, "target": "hochgebirge3" }
+      ]
+    },
+    "hochgebirge3": {
+      "id": "hochgebirge3",
+      "image": "hochgebirge3.jpg",
+      "hotspots": [
+        { "id": "hp-v1ygbo", "label": "Back", "x": 0.7711, "y": 0.0822, "r": 0.04, "target": "hochgebirge2" },
+        { "id": "hp-76jywp", "label": "Further into the mountains", "x": 0.5422, "y": 0.5979, "r": 0.04, "target": "hochgebirge4" }
+      ]
+    },
+    "hochgebirge4": {
+      "id": "hochgebirge4",
+      "image": "hochgebirge4.jpg",
+      "hotspots": [
+        { "id": "hp-rs17u1", "label": "Back again", "x": 0.3438, "y": 0.0494, "r": 0.04, "target": "hochgebirge3" },
+        { "id": "hp-8gka5e", "label": "To the mountain peak", "x": 0.4703, "y": 0.4197, "r": 0.04, "target": "hochgebirge5" }
+      ]
+    },
+    "hochgebirge5": {
+      "id": "hochgebirge5",
+      "image": "hochgebirge5.jpg",
+      "hotspots": [
+        { "id": "hp-zizib5", "label": "Back again", "x": 0.6211, "y": 0.0764, "r": 0.04, "target": "hochgebirge4" }
+      ]
+    }
+  }
+}
