@@ -5,7 +5,7 @@
       "id": "aufdemberg",
       "image": "winterwonderland.jpg",
       "hotspots": [
-        { "id": "hp-jh4p39", "label": "To the village", "x": 0.7734, "y": 0.1373, "r": 0.04, "target": "dasdorf" }
+        { "id": "hp-jh4p39", "label": "Alpine village", "x": 0.7734, "y": 0.1373, "r": 0.04, "target": "dasdorf" }
       ]
     },
     "dasdorf": {
@@ -13,14 +13,15 @@
       "image": "dorf.jpg",
       "hotspots": [
         { "id": "hp-sckjmz", "label": "Into the Mountains", "x": 0.5112, "y": 0.8289, "r": 0.04, "target": "hochgebirge1" },
-        { "id": "hp-9a5vph", "label": "Mira's Holiday Cabin", "x": 0.5335, "y": 0.7258, "r": 0.04, "target": "mirashuette1" }
+        { "id": "hp-9a5vph", "label": "Mira's Holiday Cabin", "x": 0.5335, "y": 0.7258, "r": 0.04, "target": "mirashuette1" },
+        { "id": "hp-1bytim", "label": "Valley", "x": 0.0473, "y": 0.1520, "r": 0.04, "target": "sued1" }
       ]
     },
     "mirashuette1": {
       "id": "mirashuette1",
       "image": "Dorf02-hi.jpg",
       "hotspots": [
-        { "id": "hp-3ebca3", "label": "Back to the village", "x": 0.8531, "y": 0.0775, "r": 0.04, "target": "dasdorf" },
+        { "id": "hp-3ebca3", "label": "Alpine village", "x": 0.8531, "y": 0.0775, "r": 0.04, "target": "dasdorf" },
         { "id": "hp-9o6ezu", "label": "Mira's holiday cabin", "x": 0.7398, "y": 0.4947, "r": 0.04, "target": "mirashuette2" },
         { "id": "hp-41zk8k", "label": "To the neighbors", "x": 0.2789, "y": 0.6178, "r": 0.04, "target": "nachbarn" },
         { "id": "hp-jef1xd", "label": "Follow the path", "x": 0.5664, "y": 0.5510, "r": 0.04, "target": "richtunghochgebirge1" }
@@ -113,6 +114,26 @@
       "image": "hochgebirge5.jpg",
       "hotspots": [
         { "id": "hp-zizib5", "label": "Back again", "x": 0.6211, "y": 0.0764, "r": 0.04, "target": "hochgebirge4" }
+      ]
+    },
+    "sued1": {
+      "id": "sued1",
+      "image": "sued1.jpg",
+      "hotspots": [
+        { "id": "hp-ljjxrk", "label": "Alpine village", "x": 0.0898, "y": 0.0154, "r": 0.04, "target": "dasdorf" },
+        { "id": "hp-u6u6p7", "label": "❌ Ice rink", "x": 0.8344, "y": 0.4607, "r": 0.04, "target": null },
+        { "id": "hp-dhz6em", "label": "❌ Public swimming pool", "x": 0.6484, "y": 0.4971, "r": 0.04, "target": null },
+        { "id": "hp-406x3r", "label": "❌ Elementary school", "x": 0.3234, "y": 0.4877, "r": 0.04, "target": null },
+        { "id": "hp-9p4v16", "label": "City", "x": 0.4945, "y": 0.7162, "r": 0.04, "target": "sued2-city" }
+      ]
+    },	
+	
+    "sued2-city": {
+      "id": "sued2-city",
+      "image": "sued2.jpg",
+      "hotspots": [
+        { "id": "hp-z1mf0h", "label": "Valley", "x": 0.1883, "y": 0.0412, "r": 0.04, "target": "sued1" },
+        { "id": "hp-pjn279", "label": "❌ City", "x": 0.3828, "y": 0.5885, "r": 0.04, "target": null }
       ]
     }
   }
