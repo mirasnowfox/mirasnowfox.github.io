@@ -14,7 +14,7 @@
       "hotspots": [
         { "id": "hp-sckjmz", "label": "Into the Mountains", "x": 0.5112, "y": 0.8289, "r": 0.04, "target": "hochgebirge1" },
         { "id": "hp-9a5vph", "label": "Mira's Holiday Cabin", "x": 0.5335, "y": 0.7258, "r": 0.04, "target": "mirashuette1" },
-        { "id": "hp-1bytim", "label": "Valley", "x": 0.0473, "y": 0.1520, "r": 0.04, "target": "sued1" }
+        { "id": "hp-1bytim", "label": "Valley", "x": 0.0473, "y": 0.1520, "r": 0.04, "target": "valley" }
       ]
     },
     "mirashuette1": {
@@ -116,25 +116,75 @@
         { "id": "hp-zizib5", "label": "Back again", "x": 0.6211, "y": 0.0764, "r": 0.04, "target": "hochgebirge4" }
       ]
     },
-    "sued1": {
-      "id": "sued1",
+	
+    "valley": {
+      "id": "valley",
       "image": "sued1.jpg",
       "hotspots": [
         { "id": "hp-ljjxrk", "label": "Alpine village", "x": 0.0898, "y": 0.0154, "r": 0.04, "target": "dasdorf" },
         { "id": "hp-u6u6p7", "label": "❌ Ice rink", "x": 0.8344, "y": 0.4607, "r": 0.04, "target": null },
         { "id": "hp-dhz6em", "label": "❌ Public swimming pool", "x": 0.6484, "y": 0.4971, "r": 0.04, "target": null },
         { "id": "hp-406x3r", "label": "❌ Elementary school", "x": 0.3234, "y": 0.4877, "r": 0.04, "target": null },
-        { "id": "hp-9p4v16", "label": "City", "x": 0.4945, "y": 0.7162, "r": 0.04, "target": "sued2-city" }
+        { "id": "hp-9p4v16", "label": "City", "x": 0.4945, "y": 0.7162, "r": 0.04, "target": "sued2-city" },
+        { "id": "hp-1kywd0", "label": "Serpentines", "x": 0.0813, "y": 0.3131, "r": 0.04, "target": "serpentines" }
       ]
-    },	
+    },
 	
     "sued2-city": {
       "id": "sued2-city",
       "image": "sued2.jpg",
       "hotspots": [
-        { "id": "hp-z1mf0h", "label": "Valley", "x": 0.1883, "y": 0.0412, "r": 0.04, "target": "sued1" },
+        { "id": "hp-z1mf0h", "label": "Valley", "x": 0.1883, "y": 0.0412, "r": 0.04, "target": "valley" },
         { "id": "hp-pjn279", "label": "❌ City", "x": 0.3828, "y": 0.5885, "r": 0.04, "target": null }
       ]
+    },
+	
+    "serpentines": {
+      "id": "serpentines",
+      "image": "skigebiet1.jpg",
+      "hotspots": [
+        { "id": "hp-bpcybf", "label": "Valley", "x": 0.0969, "y": 0.1092, "r": 0.04, "target": "valley" },
+        { "id": "hp-gg6e6v", "label": "Skiresort", "x": 0.7195, "y": 0.4244, "r": 0.04, "target": "skiresort" },
+        { "id": "hp-tsxnkt", "label": "Chairlift", "x": 0.7773, "y": 0.7139, "r": 0.04, "target": "chairlift" }
+      ]
+    },
+	
+    "skiresort": {
+      "id": "skiresort",
+      "image": "skigebiet_skiresort.jpg",
+      "hotspots": [
+        { "id": "hp-tni2j3", "label": "Chairlift", "x": 0.6656, "y": 0.7725, "r": 0.04, "target": "chairlift" },
+        { "id": "hp-0vvo56", "label": "Serpentines", "x": 0.3648, "y": 0.0893, "r": 0.04, "target": "serpentines" },
+        { "id": "hp-1ldydd", "label": "❌ Skiresort entrance", "x": 0.5297, "y": 0.4689, "r": 0.04, "target": null }
+      ]
+    },
+	
+    "chairlift": {
+      "id": "chairlift",
+      "image": "skigebiet2.jpg",
+      "hotspots": [
+        { "id": "hp-bt3fyl", "label": "Skiresort", "x": 0.4844, "y": 0.0518, "r": 0.04, "target": "skiresort" },
+        { "id": "hp-fjwnkx", "label": "Mountain Restaurant", "x": 0.6742, "y": 0.8100, "r": 0.04, "target": "mountain_restaurant" }
+      ]
+    },	
+	
+    "mountain_restaurant": {
+      "id": "mountain_restaurant",
+      "image": "skigebiet3.jpg",
+      "hotspots": [
+        { "id": "hp-h4lyuf", "label": "❌ Mountain Restaurant", "x": 0.7805, "y": 0.5146, "r": 0.04, "target": null },
+        { "id": "hp-9xja82", "label": "Mountain station", "x": 0.5148, "y": 0.7830, "r": 0.04, "target": "mountain_station" },
+        { "id": "hp-g27csi", "label": "Chairlift", "x": 0.0969, "y": 0.1350, "r": 0.04, "target": "chairlift" }
+      ]
+    },
+	
+    "mountain_station": {
+      "id": "mountain_station",
+      "image": "skigebiet4.jpg",
+      "hotspots": [
+        { "id": "hp-zb34t5", "label": "Mountain restaurant", "x": 0.6656, "y": 0.1607, "r": 0.04, "target": "mountain_restaurant" }
+      ]
     }
+	
   }
 }
