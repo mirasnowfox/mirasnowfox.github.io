@@ -12,14 +12,14 @@
       "id": "dasdorf",
       "image": "dorf.jpg",
       "hotspots": [
-        { "id": "hp-sckjmz", "label": "Into the Mountains", "x": 0.5112, "y": 0.8289, "r": 0.04, "target": "hochgebirge1" },
-        { "id": "hp-9a5vph", "label": "Mira's Holiday Cabin", "x": 0.5335, "y": 0.7258, "r": 0.04, "target": "mirashuette1" },
-        { "id": "hp-1bytim", "label": "Valley", "x": 0.0473, "y": 0.1520, "r": 0.04, "target": "valley" }
+        { "id": "hp-sckjmz", "label": "Into the Mountains", "x": 0.4398, "y": 0.7936, "r": 0.04, "target": "hochgebirge1" },
+        { "id": "hp-9a5vph", "label": "Mira's Holiday Cabin", "x": 0.4516, "y": 0.7045, "r": 0.04, "target": "mirashuette1" },
+        { "id": "hp-1bytim", "label": "Valley", "x": 0.0914, "y": 0.0459, "r": 0.04, "target": "valley" }
       ]
     },
     "mirashuette1": {
       "id": "mirashuette1",
-      "image": "Dorf02-hi.jpg",
+      "image": "mira_huette.jpg",
       "hotspots": [
         { "id": "hp-3ebca3", "label": "Alpine village", "x": 0.8531, "y": 0.0775, "r": 0.04, "target": "dasdorf" },
         { "id": "hp-9o6ezu", "label": "Mira's holiday cabin", "x": 0.7398, "y": 0.4947, "r": 0.04, "target": "mirashuette2" },
