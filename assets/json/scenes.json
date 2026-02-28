@@ -164,27 +164,225 @@
       "image": "skigebiet2.jpg",
       "hotspots": [
         { "id": "hp-bt3fyl", "label": "Skiresort", "x": 0.4844, "y": 0.0518, "r": 0.04, "target": "skiresort" },
-        { "id": "hp-fjwnkx", "label": "Mountain Restaurant", "x": 0.6742, "y": 0.8100, "r": 0.04, "target": "mountain_restaurant" }
+        { "id": "hp-fjwnkx", "label": "Chalet", "x": 0.6742, "y": 0.8100, "r": 0.04, "target": "chalet" }
       ]
     },	
 	
-    "mountain_restaurant": {
-      "id": "mountain_restaurant",
-      "image": "skigebiet3.jpg",
+		
+    "mountain_station": {
+      "id": "mountain_station",
+      "image": "skigebiet4.jpg",
       "hotspots": [
-        { "id": "hp-h4lyuf", "label": "❌ Mountain Restaurant", "x": 0.7805, "y": 0.5146, "r": 0.04, "target": null },
+        { "id": "hp-zb34t5", "label": "Chalet", "x": 0.6656, "y": 0.1607, "r": 0.04, "target": "chalet" }
+      ]
+    },
+	
+	
+    "chalet": {
+      "id": "chalet",
+      "image": "chalet.jpg",
+      "hotspots": [
+        { "id": "hp-h4lyuf", "label": "Chalet: Hotel & Restaurant", "x": 0.8992, "y": 0.4549, "r": 0.04, "target": "chalet_front" },
         { "id": "hp-9xja82", "label": "Mountain station", "x": 0.5148, "y": 0.7830, "r": 0.04, "target": "mountain_station" },
         { "id": "hp-g27csi", "label": "Chairlift", "x": 0.0969, "y": 0.1350, "r": 0.04, "target": "chairlift" }
       ]
     },
 	
-    "mountain_station": {
-      "id": "mountain_station",
-      "image": "skigebiet4.jpg",
+    "chalet_front": {
+      "id": "chalet_eingang",
+      "image": "chalet_eingang.jpg",
       "hotspots": [
-        { "id": "hp-zb34t5", "label": "Mountain restaurant", "x": 0.6656, "y": 0.1607, "r": 0.04, "target": "mountain_restaurant" }
+        { "id": "hp-tmnjhr", "label": "Entrance", "x": 0.5984, "y": 0.6248, "r": 0.04, "target": "chalet_entrance" },
+        { "id": "hp-xux2bv", "label": "back to chairlift", "x": 0.0539, "y": 0.2920, "r": 0.04, "target": "chalet" }
       ]
-    }
+    },
 	
+    "chalet_entrance": {
+      "id": "chalet_entrance",
+      "image": "chalet_eingang_counter.jpg",
+      "hotspots": [
+        { "id": "hp-bq1xop", "label": "Seating area", "x": 0.4836, "y": 0.5533, "r": 0.04, "target": "chalet_innen" },
+        { "id": "hp-cm4m93", "label": "Exit", "x": 0.3555, "y": 0.0646, "r": 0.04, "target": "chalet_front" }
+      ]
+    },
+	
+    "chalet_innen": {
+      "id": "chalet_innen",
+      "image": "chalet_eg_innen.jpg",
+      "hotspots": [
+        { "id": "hp-duxdsl", "label": "Patio", "x": 0.7180, "y": 0.4537, "r": 0.04, "target": "chalet_patio" },
+        { "id": "hp-al3w48", "label": "Counter", "x": 0.6945, "y": 0.0096, "r": 0.04, "target": "chalet_entrance" },
+        { "id": "hp-xe4jl9", "label": "Hallway", "x": 0.9570, "y": 0.1525, "r": 0.04, "target": "chalet_hallway" }
+      ]
+    },	
+
+    "chalet_patio": {
+      "id": "chalet_patio",
+      "image": "chalet_eg_terrasse.jpg",
+      "hotspots": [
+        { "id": "hp-rx2796", "label": "Seating area", "x": 0.9594, "y": 0.1912, "r": 0.04, "target": "chalet_innen" }
+      ]
+    },
+	
+    "chalet_hallway": {
+      "id": "chalet_hallway",
+      "image": "chalet_eg_flur.jpg",
+      "hotspots": [
+        { "id": "hp-r8b3m7", "label": "Kitchen", "x": 0.2859, "y": 0.5287, "r": 0.04, "target": "chalet_kitchen" },
+        { "id": "hp-9412qg", "label": "Downstairs", "x": 0.5172, "y": 0.4432, "r": 0.04, "target": "chalet_downstairs" },
+        { "id": "hp-goe885", "label": "Upstairs", "x": 0.6719, "y": 0.8404, "r": 0.04, "target": "chalet_upper_floor" },
+        { "id": "hp-wx805i", "label": "Seating area", "x": 0.1062, "y": 0.0377, "r": 0.04, "target": "chalet_innen" }
+      ]
+    },	
+	
+    "chalet_kitchen": {
+      "id": "chalet_kitchen",
+      "image": "chalet_eg_kueche.jpg",
+      "hotspots": [
+        { "id": "hp-f9lttk", "label": "Hallway", "x": 0.3148, "y": 0.0119, "r": 0.04, "target": "chalet_hallway" }
+      ]
+    },
+	
+    "chalet_downstairs": {
+      "id": "chalet_downstairs",
+      "image": "chalet_eg_kellertreppe.jpg",
+      "hotspots": [
+        { "id": "hp-jotvzz", "label": "Basement", "x": 0.6969, "y": 0.8123, "r": 0.04, "target": "chalet_basement_hallway" },
+        { "id": "hp-7cli5q", "label": "Hallway", "x": 0.3672, "y": 0.0529, "r": 0.04, "target": "chalet_hallway" }
+      ]
+    },
+
+    "chalet_basement_hallway": {
+      "id": "chalet_basement_hallway",
+      "image": "chalet_ug_flur.jpg",
+      "hotspots": [
+        { "id": "hp-qqse1e", "label": "Fireplace room (event location)", "x": 0.1687, "y": 0.5498, "r": 0.04, "target": "chalet_fireplaceroom" },
+        { "id": "hp-9fe02j", "label": "Installations room", "x": 0.3258, "y": 0.5580, "r": 0.04, "target": "chalet_installations_room" },
+        { "id": "hp-lyr8xx", "label": "Storage room", "x": 0.4977, "y": 0.5580, "r": 0.04, "target": "chalet_storage_room" },
+        { "id": "hp-hgzxgn", "label": "Men's room", "x": 0.6594, "y": 0.5639, "r": 0.04, "target": "chalet_basement_menwc" },
+        { "id": "hp-vcmre7", "label": "Ladies' room", "x": 0.8367, "y": 0.5697, "r": 0.04, "target": "chalet_basement_ladieswc" },
+        { "id": "hp-uwtbc3", "label": "Basement stairs", "x": 0.6945, "y": 0.0729, "r": 0.04, "target": "chalet_downstairs" }
+      ]
+    },
+	
+    "chalet_fireplaceroom": {
+      "id": "chalet_fireplaceroom",
+      "image": "chalet_ug_eventlocation.jpg",
+      "hotspots": [
+        { "id": "hp-pasne8", "label": "Basement hallway", "x": 0.4789, "y": 0.0342, "r": 0.04, "target": "chalet_basement_hallway" }
+      ]
+    },	
+	
+    "chalet_installations_room": {
+      "id": "chalet_installations_room",
+      "image": "chalet_ug_technikraum.jpg",
+      "hotspots": [
+        { "id": "hp-0oxxug", "label": "Basement hallway", "x": 0.3625, "y": 0.0377, "r": 0.04, "target": "chalet_basement_hallway" },
+        { "id": "hp-lq97eg", "label": "Workshop", "x": 0.1156, "y": 0.5100, "r": 0.04, "target": "chalet_basement_workshop" }
+      ]
+    },
+	
+    "chalet_basement_workshop": {
+      "id": "chalet_basement_workshop",
+      "image": "chalet_ug_werkstatt.jpg",
+      "hotspots": [
+        { "id": "hp-2yduv7", "label": "Installations room", "x": 0.2469, "y": 0.5041, "r": 0.04, "target": "chalet_installations_room" }
+      ]
+    },
+	
+    "chalet_storage_room": {
+      "id": "chalet_storage_room",
+      "image": "chalet_ug_vorratsraum.jpg",
+      "hotspots": [
+        { "id": "hp-nv20hs", "label": "Basement hallway", "x": 0.4703, "y": 0.0400, "r": 0.04, "target": "chalet_basement_hallway" }
+      ]
+    },	
+	
+    "chalet_basement_menwc": {
+      "id": "chalet_basement_menwc",
+      "image": "chalet_ug_herrenwc.jpg",
+      "hotspots": [
+        { "id": "hp-kanod0", "label": "Basement hallway", "x": 0.4578, "y": 0.0588, "r": 0.04, "target": "chalet_basement_hallway" }
+      ]
+    },	
+	
+    "chalet_basement_ladieswc": {
+      "id": "chalet_basement_ladieswc",
+      "image": "chalet_ug_damenwc.jpg",
+      "hotspots": [
+        { "id": "hp-nz3ukl", "label": "Basement hallway", "x": 0.3086, "y": 0.0541, "r": 0.04, "target": "chalet_basement_hallway" }
+      ]
+    },
+	
+    "chalet_upper_floor": {
+      "id": "chalet_upper_floor",
+      "image": "chalet_og_flur.jpg",
+      "hotspots": [
+        { "id": "hp-zfh2s1", "label": "Hallway", "x": 0.8141, "y": 0.0389, "r": 0.04, "target": "chalet_hallway" },
+        { "id": "hp-fg9vj6", "label": "Office", "x": 0.1773, "y": 0.5029, "r": 0.04, "target": "chalet_office" },
+        { "id": "hp-1xzter", "label": "Upper floor hallway", "x": 0.0687, "y": 0.1150, "r": 0.04, "target": "chalet_upper_floor2" }
+      ]
+    },
+	
+    "chalet_upper_floor2": {
+      "id": "chalet_upper_floor2",
+      "image": "chalet_og_flur2.jpg",
+      "hotspots": [
+        { "id": "hp-lsxvc8", "label": "to the stairs down", "x": 0.2805, "y": 0.0693, "r": 0.04, "target": "chalet_upper_floor" },
+        { "id": "hp-6lbmof", "label": "Room 4", "x": 0.1789, "y": 0.5346, "r": 0.04, "target": "chalet_upper_floor_room4" },
+        { "id": "hp-sl5v0e", "label": "Room 3", "x": 0.3414, "y": 0.5510, "r": 0.04, "target": "chalet_upper_floor_room3" },
+        { "id": "hp-rsc3im", "label": "Room 2", "x": 0.6555, "y": 0.5721, "r": 0.04, "target": "chalet_upper_floor_room2" },
+        { "id": "hp-cdsnk8", "label": "Room 1", "x": 0.8203, "y": 0.5545, "r": 0.04, "target": "chalet_upper_floor_room1" }
+      ]
+    },	
+	
+    "chalet_office": {
+      "id": "chalet_office",
+      "image": "chalet_og_buero.jpg",
+      "hotspots": [
+        { "id": "hp-mh73xm", "label": "Upper floor hallway", "x": 0.1180, "y": 0.0248, "r": 0.04, "target": "chalet_upper_floor" }
+      ]
+    },
+
+    "chalet_upper_floor_room1": {
+      "id": "chalet_upper_floor_room1",
+      "image": "chalet_og_zimmer_r1.jpg",
+      "hotspots": [
+        { "id": "hp-5mcvpw", "label": "Upper floor hallway", "x": 0.4133, "y": 0.0354, "r": 0.04, "target": "chalet_upper_floor2" }
+      ]
+    },
+	
+    "chalet_upper_floor_room2": {
+      "id": "chalet_upper_floor_room2",
+      "image": "chalet_og_zimmer_r2.jpg",
+      "hotspots": [
+        { "id": "hp-xvfibn", "label": "Upper floor hallway", "x": 0.4141, "y": 0.0365, "r": 0.04, "target": "chalet_upper_floor2" }
+      ]
+    },	
+	
+    "chalet_upper_floor_room3": {
+      "id": "chalet_upper_floor_room3",
+      "image": "chalet_og_zimmer_l2.jpg",
+      "hotspots": [
+        { "id": "hp-kyt0ws", "label": "Upstairs", "x": 0.3219, "y": 0.8803, "r": 0.04, "target": "chalet_upper_floor_room3_above" },
+        { "id": "hp-ijprkv", "label": "Upper floor hallway", "x": 0.2672, "y": 0.0154, "r": 0.04, "target": "chalet_upper_floor2" }
+      ]
+    },
+	
+    "chalet_upper_floor_room3_above": {
+      "id": "chalet_upper_floor_room3_above",
+      "image": "chalet_og_zimmer_l2_oben.jpg",
+      "hotspots": [
+        { "id": "hp-fo97ng", "label": "Downstairs", "x": 0.0813, "y": 0.0834, "r": 0.04, "target": "chalet_upper_floor_room3" }
+      ]
+    },
+	
+    "chalet_upper_floor_room4": {
+      "id": "chalet_upper_floor_room4",
+      "image": "chalet_og_zimmer_l1.jpg",
+      "hotspots": [
+        { "id": "hp-5o98qp", "label": "Upper floor hallway", "x": 0.1016, "y": 0.0717, "r": 0.04, "target": "chalet_upper_floor2" }
+      ]
+    }			
   }
 }
